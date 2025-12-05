@@ -1,5 +1,8 @@
 package Program;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Practice {
 
 	public static void main(String[] args) {
@@ -83,7 +86,13 @@ public class Practice {
 //			System.out.println( " : Occurrence of word : " +word + " : " + count);
 //		}
 //
-
+		
+		 
+		        
+		String s = "i am Tester";
+		
+		System.out.println(s.substring(0,4) + " good" + s.substring(4));
+		
 		
 	}
 }
