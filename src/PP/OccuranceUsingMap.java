@@ -15,6 +15,7 @@ public class OccuranceUsingMap {
 				map.put(ch, 1);
 			}
 		}
+		System.out.println(map);
 		for(char key : map.keySet()) {
 			System.out.println(key +"------>"+ map.get(key));
 		}
